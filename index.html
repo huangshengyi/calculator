@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>简单易用计算器</title>
+    <link rel="shortcut icon"  href="./images/Calculator.ico">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container" id="pc">
+        <div class="title" id="drag">简单易用计算器</div>
+        <div class="show">0
+        </div>
+        <div class="main">
+            <table>
+                <tr>
+                    <td>c</td><td>×</td><td>÷</td><td>del</td>
+                </tr>
+                <tr>
+                    <td>7</td><td>8</td><td>9</td><td>-</td>
+                </tr>
+                <tr>
+                    <td>4</td><td>5</td><td>6</td><td>+</td>
+                </tr>
+                <tr>
+                    <td>1</td><td>2</td><td>3</td><td rowspan="2">=</td>
+                </tr>
+                <tr>
+                    <td colspan="2">0</td><td>.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- 引入js文件 -->
+    <script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./js/drag.js" ></script>
+    <script type="text/javascript" src="./js/calculator.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
